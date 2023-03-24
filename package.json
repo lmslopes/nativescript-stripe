@@ -1,6 +1,6 @@
 {
   "name": "@lmslopes/nativescript-stripe",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "NativeScript Stripe SDK",
   "main": "index",
   "typings": "index.d.ts",
