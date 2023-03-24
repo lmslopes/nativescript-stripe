@@ -1,9 +1,11 @@
 # Nativescript Stripe
 
+forked from https://github.com/triniwiz/nativescript-plugins
+
 ## Installation
 
 ```bash
-npm install @triniwiz/nativescript-stripe
+npm install @lmslopes/nativescript-stripe
 ```
 
 ## API documentation
