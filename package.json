@@ -1,6 +1,6 @@
 {
-  "name": "@triniwiz/nativescript-stripe",
-  "version": "9.0.0-beta.2",
+  "name": "@lmslopes/nativescript-stripe",
+  "version": "1.0.0",
   "description": "NativeScript Stripe SDK",
   "main": "index",
   "typings": "index.d.ts",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/triniwiz/nativescript-plugins.git"
+    "url": "git+https://github.com/lmslopes/nativescript-stripe.git"
   },
   "keywords": [
     "NativeScript",
@@ -22,15 +22,17 @@
     "Android",
     "Stripe"
   ],
-  "author": {
-    "name": "Osei Fortune",
-    "email": "fortune.osei@yahoo.com"
-  },
+  "author": "Luis Lopes",
   "bugs": {
-    "url": "https://github.com/triniwiz/nativescript-plugins/issues"
+    "url": "https://github.com/lmslopes/nativescript-stripe/issues"
   },
   "license": "Apache-2.0",
   "homepage": "https://github.com/nativescript-plugins",
-  "readmeFilename": "README.md",
-  "bootstrapper": "@nativescript/plugin-seed"
+  "bootstrapper": "@nativescript/plugin-seed",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "@lmslopes:registry": "https://npm.pkg.github.com"
+  }
 }
